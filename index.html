@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Мой учебный сайт</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Наименование сайта</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Рекомендации</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav class="vert-menu">
+        <h1>Главное меню</h1>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Рекомендации</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <article>
+            <h1>Блочная вёрстка</h1>
+            <p>
+                Блочная верстка сайта HTML подразумевает большое вниманию к тегу <code>div</code>, элементы которого и представляют собой, так называемые, блоки. В связи с этим необходимо рассмотреть сам тег <code>div</code> и его применение.
+            </p>
+
+            <p>
+                Тег <code>div</code> играет роль некоторого «логического контейнера», в который помещаются другие элементы сайта.
+            </p>
+
+            <p>
+                Применяется тег следующим образом:
+            </p>
+
+            <code>
+                &lt;div class="navBarNubex"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Главная&lt;/li&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Блог&lt;/li&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Новости&lt;/li&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Статьи&lt;/li&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Контакты&lt;/li&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+                &lt;/div&gt;
+            </code>
+
+            <p>
+                В приведенном коде для примера представлено меню типичного сайта. Меню, в свою очередь, обёрнуто тегом <code>div</code>, который, как мы уже говорили, представляет собой логически обоснованный блок. К тегу <code>div</code> теперь можно применить CSS-стили для его отображения.
+            </p>
+
+            <p>
+                Как можно видеть из приведенного кода, стандарт HTML5 добавил логичности в новые теги, и это представляет преимущество не только для разработчиков, но и для поисковых систем. Согласитесь, поисковая система со 100% вероятностью определит, что между тегами <code>&lt;header&gt;&lt;/header&gt;</code> будет именно заголовок, нежели между тегами <code>&lt;div id="abrakadabra"&gt;&lt;/div&gt;</code>. Это предоставляет огромное преимущество при правильной индексации сайта, ранжировании его в результатах поиска и создания микроразметки.
+            </p>
+
+            <p>
+                Кроме того, блочная верстка является незаменимым инструментом при создании мобильной версии сайта или адаптивной верстке (то, как осуществлять мобильную верстку, описано в статье:
+                <a href="#">как сделать мобильную версию сайта</a>).
+            </p>
+            <footer>
+                <p>Подвал статьи.</p>
+            </footer>
+        </article>
+    </div>
+    <footer>
+        <hr/>
+        <p>2017 © Персональный сайт И. В. Пупкина</p>
+    </footer>
+</body>
+</html>
