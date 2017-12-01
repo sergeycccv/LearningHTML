@@ -1,1 +1,1 @@
-"# LearningHTML" 
+Project to study HTML / CSS / JavaScript. 
